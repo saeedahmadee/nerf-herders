@@ -1,4 +1,4 @@
-# nerf-herders
+# Nerf Herders
 A simple graph solution with VueJS and D3.js
 
 Server runs on ExpressJS and provides an API endpoint for a simple graph, It reads the data from `server/db/trees.json`.
