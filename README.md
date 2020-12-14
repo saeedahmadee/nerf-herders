@@ -1,25 +1,24 @@
 # nerf-herders
-A simple graph solution with VueJS and D3JS
+A simple graph solution with VueJS and D3.js
+
+Server runs on ExpressJS and provides an API endpoint for a simple graph, It reads the data from `server/dv/trees.json`.
 
 ## Project setup
 ```
-yarn install
+yarn setup
 ```
 
-### Compiles and hot-reloads for development
+## Compiles and hot-reloads server and client for development
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+yarn dev
 ```
 
-### Lints and fixes files
+### Compiles and hot-reloads client for development
 ```
-yarn lint
+yarn client
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Compiles and hot-reloads server for development
+```
+yarn server
+```
