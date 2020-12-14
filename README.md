@@ -1,7 +1,7 @@
 # nerf-herders
 A simple graph solution with VueJS and D3.js
 
-Server runs on ExpressJS and provides an API endpoint for a simple graph, It reads the data from `server/dv/trees.json`.
+Server runs on ExpressJS and provides an API endpoint for a simple graph, It reads the data from `server/db/trees.json`.
 
 ## Project setup
 ```
